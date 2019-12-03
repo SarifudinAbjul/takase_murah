@@ -5,8 +5,6 @@ include "admin/db/koneksi.php";
 $result = $koneksi->query("SELECT * FROM produk");
 $isi = $result->fetch_assoc();
 
-
-
  ?>
 
 <!DOCTYPE html>
